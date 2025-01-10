@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest Snapshot testing suite Matches DOM Snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="counter"
+    >
+      <h1>
+        COUNTER
+      </h1>
+      <div
+        class="buttons"
+      >
+        <button>
+          Increment
+        </button>
+        <button>
+          Decrement
+        </button>
+      </div>
+      <p>
+        0
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Jest Snapshot testing suite Should render 3 after three increments 1`] = `
+<p>
+  3
+</p>
+`;
